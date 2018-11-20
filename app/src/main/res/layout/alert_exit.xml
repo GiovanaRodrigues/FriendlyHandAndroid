@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtSair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@mipmap/ic_warning_white_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/sair"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/mensagem"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22dp" />
+</LinearLayout>

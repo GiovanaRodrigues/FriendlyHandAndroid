@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@mipmap/ic_call_white_24dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="@string/solicitar_servico"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/insira_data"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/darkGray"
+        android:theme="@style/FieldTheme">
+
+        <EditText
+            android:id="@+id/edit_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:hint="@string/data"
+            android:inputType="date"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/darkGray"
+            android:textSize="18dp"
+            android:theme="@style/FieldTheme" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

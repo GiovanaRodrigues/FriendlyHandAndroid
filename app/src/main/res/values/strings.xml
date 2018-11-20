@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Friendly Hand</string>
+
+    <!-- Cadastro e Login -->
+    <string name="email">E-mail:</string>
+    <string name="senha">Senha:</string>
+    <string name="login">Login</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="preencha_todos_campos">Preencha Todos os Campos</string>
+
+    <!-- Sucesso -->
+    <string name="sucesso_perfil">Perfil atualizado com sucesso!</string>
+    <string name="sucesso_novo_servico">Serviço criado com sucesso!</string>
+    <string name="sucesso_editar_servico">Serviço editado com sucesso!</string>
+    <string name="sucesso_deletar_servico">Serviço deletado com sucesso!</string>
+    <string name="sucesso_solicitar_servico">Serviço solicitado com sucesso!</string>
+    <string name="sucesso_confirmar_servico">Serviço confirmado com sucesso!</string>
+    <string name="sucesso_concluir_servico">Serviço concluído com sucesso!</string>
+    <string name="sucesso_avaliacao">Avaliação realizada com sucesso!</string>
+
+    <!-- Erros -->
+    <string name="erro_login">E-mail, Senha ou Tipo de Usuário incorretos! </string>
+    <string name="erro_cadastro">Erro ao realizar cadastro!</string>
+    <string name="erro_deletar">Erro ao deletar conta!</string>
+    <string name="erro_deletar_servico">Erro ao deletar serviço!</string>
+    <string name="erro_editar_servico">Erro ao editar serviço!</string>
+    <string name="erro_conexao">Não foi possível estabelecer conexão!</string>
+    <string name="data_invalida">Data Inválida! &lt;br /> A data de serviço deve ser entre a data atual e %1$s</string>
+    <string name="erro_confirmar_servico">Erro ao confirmar o serviço!</string>
+    <string name="erro_concluir_servico">Erro ao concluir o serviço!</string>
+    <string name="erro_avaliacao">Erro ao realizar avaliação!</string>
+    <string name="erro_dados">Erro ao buscar dados!</string>
+    <string name="data_nascimento_invalida">Data de Nascimento Inválida! &lt;br /> Você precisa ser maior de idade para utilizar o serviço</string>
+
+    <!-- Editar Serviço -->
+    <string name="editar_servico">Editar Serviço</string>
+    <string name="excluir_servico">Excluir Serviço</string>
+    <string name="excluir_servico_mensagem">Deseja mesmo deletar esse serviço?</string>
+
+    <!-- Dados Pessoais -->
+    <string name="tipo_usuario">Tipo de Usuário:</string>
+    <string name="cliente">Cliente</string>
+    <string name="prestador">Prestador</string>
+    <string name="nome_completo">Nome Completo:</string>
+    <string name="dados_pessoais">Dados Pessoais</string>
+    <string name="dados_endereco">Dados de Endereço</string>
+    <string name="data_nascimento">Data de Nascimento:</string>
+    <string name="cpf">CPF:</string>
+    <string name="telefone_celular">Telefone Celular:</string>
+
+    <!-- Dados de Endereço -->
+    <string name="cep">CEP:</string>
+    <string name="rua">Rua:</string>
+    <string name="numero">Número:</string>
+    <string name="bairro">Bairro:</string>
+    <string name="cidade">Cidade:</string>
+    <string name="uf">UF:</string>
+
+    <!-- Menu -->
+    <string name="perfil">Perfil</string>
+    <string name="historico">Histórico</string>
+    <string name="buscar_servicos">Buscar Serviços</string>
+    <string name="meus_servicos">Meus Serviços</string>
+    <string name="servicos_confirmados">Serviços Confirmados</string>
+    <string name="servicos_solicitados">Serviços Solicitados</string>
+    <string name="deletar_conta">Deletar Conta</string>
+    <string name="mensagem_deletar_conta">Deseja mesmo deletar sua conta? Ela não poderá ser recuperada no futuro</string>
+    <string name="sair">Sair</string>
+    <string name="open">Abrir</string>
+    <string name="close">Fechar</string>
+
+    <!-- Categorias de Serviços -->
+    <string name="limpeza">Limpeza</string>
+    <string name="marcenaria">Marcenaria</string>
+    <string name="servicos_eletricos">Serviços Elétricos</string>
+    <string name="encanamento">Encanamento</string>
+    <string name="jardinagem">Jardinagem</string>
+    <string name="pintura">Pintura</string>
+
+    <!-- Tela Sair -->
+    <string name="mensagem">Deseja mesmo sair?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="cancel">Cancelar</string>
+    <string name="fechar">Fechar</string>
+
+    <!-- Avaliação -->
+    <string name="avaliar_cliente">Avaliar Cliente</string>
+    <string name="avaliar_prestador">Avaliar Prestador</string>
+    <string name="avaliar">Avaliar</string>
+    <string name="data_servico">&lt;b>Data:&lt;/b> %1$s</string>
+    <string name="cliente_servico">&lt;b>Cliente:&lt;/b> %1$s</string>
+    <string name="comentario">Deixe sua opinião..</string>
+    <string name="nenhum_comentario">Nenhum Comentário Adicionado</string>
+
+    <!-- Buscar Serviços-->
+    <string name="aguarde">Aguarde</string>
+    <string name="consultando">Consultando dados..</string>
+    <string name="salvando">Salvando dados..</string>
+    <string name="lista_vazia">Nenhum Serviço Encontrado</string>
+    <string name="enviar">Enviar</string>
+
+    <!-- Meus Serviços -->
+    <string name="novo_servico">Novo Serviço</string>
+    <string name="nome_servico">Nome: </string>
+    <string name="descricao_servico">Descrição: </string>
+    <string name="categoria_servico">Categoria: </string>
+    <string name="valor_servico">Valor: </string>
+    <string name="confirmar">Confirmar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- Serviços Confirmados -->
+    <string name="dados_servico">Dados do Serviço</string>
+    <string name="dados_prestador">Dados do Prestador</string>
+    <string name="dados_cliente">Dados do Cliente</string>
+    <string name="nome_usuario">&lt;b>Nome:&lt;/b> %1$s</string>
+    <string name="telefone">&lt;b>Telefone:&lt;/b> %1$s</string>
+    <string name="media_nota">Avaliação: </string>
+    <string name="endereco_cliente">Dados de Endereço do Cliente</string>
+    <string name="endereco_rua">Logradouro: %1$s</string>
+    <string name="endereco_bairro">Bairro: %1$s</string>
+    <string name="endereco_cidade">Cidade: %1$s</string>
+
+    <!-- Serviço Solicitado -->
+    <string name="servico_solicitado">Serviço Solicitado</string>
+
+    <!-- Confirmar Serviço -->
+    <string name="servico_confirmado">Serviço Confirmado</string>
+    <string name="confirmar_servico">Confirmar Serviço</string>
+
+    <!-- Concluir Serviço -->
+    <string name="servico_concluido">Serviço Concluído</string>
+    <string name="concluir_servico">Concluir Serviço</string>
+
+    <!-- Informações do Serviço-->
+    <string name="informacoes_servico">Informações</string>
+
+    <!-- Solicitar Serviço -->
+    <string name="solicitar_servico">Solicitar Serviço</string>
+    <string name="descricao">&lt;b>Descrição:&lt;/b> %1$s</string>
+    <string name="categoria">&lt;b>Categoria:&lt;/b> %1$s</string>
+    <string name="valor">&lt;b>Valor:&lt;/b> R$ %1$s</string>
+    <string name="prestador_servico">&lt;b>Prestador:&lt;/b> %1$s</string>
+    <string name="solicitar">Solicitar</string>
+    <string name="insira_data">Insira a data em que deseja que o serviço seja realizado:</string>
+    <string name="data">Data:</string>
+
+    <!-- Perfil -->
+    <string name="atualizar_foto">Atualizar Foto de Perfil</string>
+    <string name="atualizar_dados">Atualizar Dados</string>
+</resources>

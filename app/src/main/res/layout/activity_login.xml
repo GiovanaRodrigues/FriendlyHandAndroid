@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/tipo_usuario"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <RadioButton
+            android:id="@+id/rbt_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:checked="true"
+            android:text="@string/cliente"
+            android:textColor="@android:color/white"
+            android:theme="@style/FieldTheme" />
+
+        <RadioButton
+            android:id="@+id/rbt_profissional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/prestador"
+            android:textColor="@android:color/white"
+            android:theme="@style/FieldTheme" />
+    </RadioGroup>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/lightBlue"
+        android:theme="@style/FieldTheme">
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/lightBlue"
+            android:textSize="18dp"
+            android:theme="@style/FieldTheme" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_layout_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/lightBlue"
+        android:theme="@style/FieldTheme">
+
+        <EditText
+            android:id="@+id/edit_senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="15dp"
+            android:drawableRight="@mipmap/ic_visibility_off_white_24dp"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/lightBlue"
+            android:textSize="18dp"
+            android:theme="@style/FieldTheme" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_button"
+        android:text="@string/entrar"
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>

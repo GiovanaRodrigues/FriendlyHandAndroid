@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightBlueBackground"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_vazio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/txtVazio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lista_vazia"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="36dp" />
+
+            <ImageView
+                android:id="@+id/imgSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_search_white_48dp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="5dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="5dp"
+            android:src="@mipmap/ic_add_white_24dp" />
+    </android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

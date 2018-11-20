@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Serviço"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lightBlueBackground" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/dados_servico"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txtDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Descrição:"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Categoria:"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Preço:"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/data_servico"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/dados_prestador"
+            android:textColor="@color/colorPrimary" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/foto_perfil" />
+
+        <TextView
+            android:id="@+id/txtPrestador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/nome_usuario"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/telefone"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:id="@+id/avaliacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/media_nota"
+                android:textColor="@android:color/black"
+                android:textSize="18dp" />
+
+            <RatingBar
+                android:id="@+id/rtEstrelas"
+                style="?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:numStars="5" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/confirm_button"
+            android:text="@string/solicitar"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="backgroundScreen">#FFE0B2</color>
+    <color name="lightPrimaryColor">#5972FF</color>
+    <color name="lightBlue">#C5CAE9</color>
+    <color name="lightBlueBackground">#8190ED</color>
+    <color name="darkGray">#686868</color>
+    <color name="complementar">#A08837</color>
+</resources>

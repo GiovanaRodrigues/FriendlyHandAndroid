@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_perfil"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@mipmap/ic_person_black_24dp"
+            android:title="@string/perfil" />
+        <item
+            android:id="@+id/nav_servicos"
+            android:icon="@mipmap/ic_work_black_24dp"
+            android:title="@string/meus_servicos" />
+
+        <item
+            android:id="@+id/nav_solicitados"
+            android:icon="@mipmap/ic_call_black_24dp"
+            android:title="@string/servicos_solicitados"/>
+
+        <item
+            android:id="@+id/nav_confirmados"
+            android:icon="@mipmap/ic_check_circle_black_24dp"
+            android:title="@string/servicos_confirmados" />
+
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@mipmap/ic_history_black_24dp"
+            android:title="@string/historico" />
+    </group>
+
+    <group
+        android:id="@+id/menu_sair"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"
+            android:title="@string/sair" />
+    </group>
+</menu>
